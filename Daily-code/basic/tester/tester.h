@@ -1,5 +1,5 @@
 #pragma once
-#include <systemc>
+#include <systemc.h>
 #include "gtest/gtest.h"
 #include "module.h"
 

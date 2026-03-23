@@ -10,8 +10,8 @@ tests.cpp
 main.cpp)
 
 target_include_directories(tester PUBLIC 
-    /home/ratap/tools/systemc-2.3.4/include
-    /home/ratap/tools/googletest/include
+    /home/abhay/tools/systemc-2.3.3/include
+    /home/abhay/tools/googletest/include
     
     ${MODULE_DIR}/include
     ${CMAKE_CURRENT_SOURCE_DIR}/
@@ -23,8 +23,8 @@ target_include_directories(tester PUBLIC
 # )
 
 target_link_directories(tester PUBLIC  
-    /home/ratap/tools/systemc-2.3.4/lib/Debug
-    /home/ratap/tools/googletest/lib/Debug
+    /home/abhay/tools/systemc-2.3.3/lib
+    /home/abhay/tools/googletest/lib/Debug
 )
 
 target_link_libraries(tester PUBLIC 
